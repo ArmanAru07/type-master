@@ -58,6 +58,9 @@ const validate = (key) => {
   if (key === questionText[userText.length - 1]) {
     return true;
   }
+  else{
+    errorCount += 1;
+  }
   return false;
 };
 
